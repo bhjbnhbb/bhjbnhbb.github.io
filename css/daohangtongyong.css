@@ -1,0 +1,196 @@
+/*消除默认边距*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/*header设置一个外边距，留出最上面的距离*/
+.header{
+    margin-top: 20px;
+}
+
+
+/*语言部分样式*/
+.language{
+    width: 100%;
+    height: 35px;
+    background-color: #000000;
+}
+
+
+/*语言下面的li标签用来存放语言选项*/
+.language ul {
+    float: right;
+    margin-right: 20px;
+}
+
+
+.language ul li {
+    width: 80px;
+    height: 35px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 5px; 
+    list-style: none;
+    color: white;
+}
+
+
+/*导航栏样式*/
+.nav{
+    width: 100%;
+    height: 70px;
+    background-color: #1661b0;
+}
+
+
+/*清除a标签默认样式*/
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/*导航栏下面的ul标签用来存放导航栏选项*/
+.nav ul {
+
+    margin-left: 320px;
+}
+
+
+.nav ul li {
+    height: 70px;
+    padding: 0 50px;
+    float: left;
+    list-style: none;
+}
+
+
+.nav ul li a {
+    color: white;
+    line-height: 70px;
+}
+
+
+/*版心*/
+.continer{
+    width: 70%;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+
+/*热门景区文字 头部文字部分 可以重复使用*/
+.continer .title{
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    background-color: #28609f;
+    color: white;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+/*1111
+a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+*/
+
+
+
+.pics{
+    list-style: none;
+    width: 100%;
+}
+.pics li{
+    width: 100%;
+    height: 190px;
+    margin: 10px 0;
+    border-bottom: 1px dotted rgb(79, 79, 79);
+    padding-bottom: 5px;
+}
+.pics li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.pics li a:hover{
+    background-color: rgb(164, 164, 164);
+}
+.pics li a img{
+    width: 250px;
+    height: 190px;
+    float: left;
+}
+.pics li a h3{
+    color: #000;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.pics li a p{
+    color: #000;
+    margin-left: 300px;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*底部样式*/
+.footer{
+    width: 100%;
+    height: 280px;
+    background-color: #282928;
+    color: #ffffff;
+    padding: 30px 300px;
+    box-sizing: border-box;
+    margin-top: 180px;
+}
+.footer .footertop{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.footertop .left{
+    height: 140px;
+    width: 50%;
+}
+.footertop .left .leftworld{
+    width: 100%;
+    height: 100%;
+}
+.footertop .right{
+    height: 140px;
+    width: 50%;
+}
+.footertop .right .righpic{
+    width: 100%;
+    height: 100%;
+}
+.footertop .right .rightpic img{
+    width: 30%;
+    height: auto;
+    float: right;
+}
+.footertop .right .rightpic p{
+    float: right;
+}
